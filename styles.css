@@ -305,7 +305,7 @@ button.nav-button:hover{
 }
 .err::before{
     content: '';
-    background: url(/assets/images/icon-error.svg);
+    background: url(./assets/images/icon-error.svg);
     width: 40px;
     height: 40px;
 }
@@ -668,7 +668,6 @@ button.nav-button:hover{
         font-size: 18px;
         height: 56px;
     }
-    
     .err {
         font-size: 18px;
         margin-top: 12px;
@@ -677,6 +676,10 @@ button.nav-button:hover{
         width: 32px;
         height: 32px;
         background-size: contain;
+    }
+    .answer:hover .v-a{
+        background-color: #f4f6fa;
+        color: #626C7F;
     }
     
      
